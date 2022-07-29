@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#login-section{
+    background: #fff;
+}
+#login-section .login-box {
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    box-shadow: 0 10px 30px 0 rgb(13 12 13 / 20%);
+    margin: 20px auto;
+    max-width: 700px;
+    padding: 40px 50px;
+}
+#login-section .login-box h2, #login-section .login-box h6 {
+    text-align: center;
+    text-transform: capitalize;
+}
+#login-section .login-box h6 {
+    color: #301a22;
+    font-weight: 400;
+    margin-bottom: 40px
+}
+#login-section .login-box form .inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 18px 0;
+}
+#login-section .login-box form label {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#login-section .login-box form input {
+    border: 1px solid #c9c9c9;
+    outline: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+#login-section .login-box form .inputs .main {
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-left: 45px;
+    position: relative;
+}
+#login-section .login-box form .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#login-section .login-box form .buttons .signupbtn {
+    text-transform: capitalize;
+}
+#login-section .login-box form .buttons .singupbtn a {
+    color: #ff2c2c;
+    text-decoration: none;
+}
+#login-section .login-box form .buttons .loginbtn a {
+    background-color: #ff2c2c;
+    border: 1px solid #ff2c2c;
+    color: #fff;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.check{
+    width: 2rem;
+    height: 2rem;
+}
+.main{
+    margin: -30px 0px;
+}
+#login-section .login-box form .buttons .loginbtn a:hover {
+    background-color: #fff;
+    border: 1px solid #ff2c2c;
+    color: #ff2c2c;
+    transition: all .5s ease-in-out;
+}

@@ -1,0 +1,50 @@
+.error-section .box {
+    text-transform: uppercase;
+}   
+.error-section .box .error .notfound {
+    left: 0;
+    position: relative;
+    top: 90px;
+}
+.error-section .box .error .notfound h1{
+    font-family: bold;
+    font-size: 200px;
+    opacity: .3;
+    text-align: center;
+}
+.error-section .box .error .error-info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    position: relative;
+    top: -90px;
+}
+.error-section .box .error .error-info h3{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.error-section .box .error .error-info p{
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.error-section .box .error .error-info a{
+    background: #ff2c2c;
+    border: 1px solid #ff2c2c;
+    color: #fff;
+    margin-top: 20px;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.error-section .box .error .error-info a:hover{
+    background: #fff;
+    border: 1px solid #ff2c2c;
+    color: #ff2c2c;
+    transition: all .3s ease-in-out;
+}
